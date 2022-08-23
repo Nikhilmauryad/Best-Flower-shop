@@ -52,9 +52,9 @@
     float: left;
     width: 55%;
 }
+
 .image-section{
-    margin-left: 100%;
-    margin-top: -200px;
+    float: right;
     width: 40%;
 }
 
@@ -100,7 +100,7 @@
 .content-section .social i :hover{
     color: #3d3d3d;
 }
-@media(max-height:800px){
+@media(max-height:890px){
     .container{
         width: 80%;
         margin: auto;
@@ -113,6 +113,8 @@
         display: block;
         margin: auto;
     }
+}
+@media(max-height:890px){
     .image-section{
         float: none;
         width: 100%;
